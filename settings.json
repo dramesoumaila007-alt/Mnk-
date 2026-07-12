@@ -1,9 +1,9 @@
 {
     "host": "localhost",
     "port": "8000",
-    "password": "1518421192313278704",
-    "client_id": "",
-    "client_secret_id": "",
+    "password": "Mnkbosse93",
+    "client_id": "1518421192313278704",
+    "client_secret_id": "DT1xmh9AsPXaJeCAka2y45cOQU0WKZjB",
     "secret_key": "",
     "redirect_url": "http://127.0.0.1:8000/callback",
     "logging": {
