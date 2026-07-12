@@ -193,8 +193,10 @@ if __name__ == "__main__":
     if SETTINGS.logging is None:
         SETTINGS.logging = {}
     setup_logging(SETTINGS.logging)
-
+    config = Config()
+    config.bind = [f"{SETTINGS.host}:{SETTINGS.port}"]
     asyncio.run(serve(app, config))
+
 
     # For Testing
     # app.run(host=SETTINGS.host, port=SETTINGS.port, debug=True)
