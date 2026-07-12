@@ -4,7 +4,7 @@
     "password": "Mnkbosse93",
     "client_id": "1518421192313278704",
     "client_secret_id": "DT1xmh9AsPXaJeCAka2y45cOQU0WKZjB",
-    "secret_key": "",
+    "secret_key": "7f8d3e2b1a5c9e0f4d8b2a6c0e1f3a5b7d9e1f2a3b4c5d6e7f8a9b0c1d2e3f4a",
     "redirect_url": "http://127.0.0.1:8000/callback",
     "logging": {
         "file": {
