@@ -190,9 +190,10 @@ async def ws_user(user: User):
 
 if __name__ == "__main__":
     update.check_version(with_msg=True)
+    if SETTINGS.logging is None:
+        SETTINGS.logging = {}
     setup_logging(SETTINGS.logging)
-    config = Config()
-    config.bind = [f"{SETTINGS.host}:{SETTINGS.port}"]
+
     asyncio.run(serve(app, config))
 
     # For Testing
